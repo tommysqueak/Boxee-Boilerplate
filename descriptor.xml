@@ -1,7 +1,7 @@
 <!-- For more detail http://developer.boxee.tv/Descriptor_XML -->
 
 <app>
-	<id>[id]</id> <!-- unique app id. lower case, alphanumeric and dashes -->
+	<id>[developer id eg. mine is greatboxee].[your-app-id]</id> <!-- unique app id. lower case, alphanumeric and dashes -->
 	<name>[name]</name>
 	<version>1.0</version>
 	<description>[brief app description]</description>
