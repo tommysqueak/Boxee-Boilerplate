@@ -1,0 +1,7 @@
+
+.svn/
+packages/
+packaging/
+*.zip
+.DS_Store
+Thumbs.db
