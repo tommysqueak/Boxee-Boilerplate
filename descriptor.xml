@@ -1,0 +1,24 @@
+<!-- For more detail http://developer.boxee.tv/Descriptor_XML -->
+
+<app>
+	<id>[id]</id> <!-- unique app id. lower case, alphanumeric and dashes -->
+	<name>[name]</name>
+	<version>1.0</version>
+	<description>[brief app description]</description>
+	<thumb>[url]</thumb> <!-- URL to the app thumbnail. 200px by 200px -->
+	<media>video</media> <!-- video, music, pictures -->
+	<type>skin</type> <!-- skin, html, rss -->
+	<platform>all</platform> <!-- all, win, mac, atv (apple tv), linux, dlink.dsm380 (boxee box) --> 
+	<copyright>[copyright notice]</copyright><!-- not shown anywhere but required -->
+	<email>[developer email]</email><!-- developer contact email address, not shown-->
+	<minversion>0.9.11</minversion> <!-- min boxee version your app can run on. 0.9.11 for apps, 0.9.7 for rss  -->
+	<repository>http://dir.boxee.tv/app</repository>
+	<test-app>true</test-app>
+	
+	<!-- Choose one for your type of app -->
+	<startWindow>14000</startWindow> <!-- skin = start window ID or python script name -->
+	<url>[url to rss]</url> <!-- rss = url to rss feed, only if it's an rss type app -->
+	<controller>[jscript file]</controller> <!-- html = jscript file that will 'control' the html5 app -->
+			
+	<!-- See http://developer.boxee.tv/Descriptor_XML for optional elements -->
+</app>

@@ -1,0 +1,23 @@
+<window id="14000" type="window">
+	<defaultcontrol always="false">100</defaultcontrol>
+	<allowoverlay>yes</allowoverlay>
+
+	<controls>
+		<control type="image">
+			<width>1280</width>
+			<height>720</height>
+			<texture>grid.png</texture>
+		</control>
+
+		<control type="label">
+			<posy>200</posy>
+			<posx>60</posx>
+			<width>400</width>
+			<font>font38</font>
+			<color>white</color>
+			<label>I Boxee</label>
+		</control>
+
+	</controls>
+
+</window>
