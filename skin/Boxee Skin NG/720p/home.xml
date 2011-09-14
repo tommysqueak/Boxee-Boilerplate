@@ -3,19 +3,19 @@
 	<allowoverlay>yes</allowoverlay>
 
 	<controls>
-		<control type="image">
+		<control id="100" type="image">
 			<width>1280</width>
 			<height>720</height>
 			<texture>grid.png</texture>
 		</control>
 
 		<control type="label">
-			<posy>200</posy>
-			<posx>60</posx>
-			<width>400</width>
-			<font>font38</font>
+			<posy>100</posy>
+			<posx>100</posx>
+			<width>1000</width>
+			<font>font48</font>
 			<color>white</color>
-			<label>I Boxee</label>
+			<label>Looking good. Go create!</label>
 		</control>
 
 	</controls>

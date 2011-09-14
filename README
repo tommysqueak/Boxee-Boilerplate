@@ -1,3 +1,14 @@
-Grid by Bartsidee - http://www.bartsidee.nl
+To get started. Get to the Boxee apps dir in a terminal:
+
+mkdir your-app-name
+cd your-app-name
+git init
+git remote add boilerplate git://github.com/tommysqueak/Boxee-Boilerplate.git
+git pull boilerplate master
+
+Then open up the descriptor.xml in your editor of choice and fill in the blanks. Open Boxee and check it runs ok. Make a kick-ass app.
 
 If you're using Git for source control, rename example.gitignore to .gitignore
+
+Credit
+Grid by Bartsidee - http://www.bartsidee.nl
