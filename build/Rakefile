@@ -1,0 +1,3 @@
+import 'lib/tasks/package.rake'
+
+task :default => :package

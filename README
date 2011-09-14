@@ -10,5 +10,15 @@ Then open up the descriptor.xml in your editor of choice and fill in the blanks.
 
 If you're using Git for source control, rename example.gitignore to .gitignore
 
+For building the app
+You'll need Ruby and bundler installed.
+Open build/environments.yml and fill in the blanks
+From a terminal:
+cd build
+bundle install
+rake
+
+This will create to packaged apps. One for deployment to your staging server/repository and one for the official Boxee app library.
+
 Credit
 Grid by Bartsidee - http://www.bartsidee.nl

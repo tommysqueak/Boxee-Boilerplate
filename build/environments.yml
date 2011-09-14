@@ -1,0 +1,10 @@
+prod:
+    id: '[your-app-id]'
+    repository: 'http://dir.boxee.tv/apps'
+    thumb: '[url to production app thumb]'
+    
+beta:
+    id: '[staging repository id].[your-app-id]'
+    repositoryid: '[staging repository id]'
+    repository: '[staging repository url]'
+    thumb: '[url to staging app thumb]'

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tommysqueak-GreatBoxee/!svn/ver/180/GreatBoxee.filmomentum/build/lib
+END
+packager.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tommysqueak-GreatBoxee/!svn/ver/180/GreatBoxee.filmomentum/build/lib/packager.rb
+END
+app_descriptor.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tommysqueak-GreatBoxee/!svn/ver/180/GreatBoxee.filmomentum/build/lib/app_descriptor.rb
+END
+app.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tommysqueak-GreatBoxee/!svn/ver/180/GreatBoxee.filmomentum/build/lib/app.rb
+END
+convention_app_descriptor.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tommysqueak-GreatBoxee/!svn/ver/180/GreatBoxee.filmomentum/build/lib/convention_app_descriptor.rb
+END
+versioning.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tommysqueak-GreatBoxee/!svn/ver/180/GreatBoxee.filmomentum/build/lib/versioning.rb
+END
+preparation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tommysqueak-GreatBoxee/!svn/ver/180/GreatBoxee.filmomentum/build/lib/preparation.rb
+END
+config.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tommysqueak-GreatBoxee/!svn/ver/180/GreatBoxee.filmomentum/build/lib/config.rb
+END
+zipper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tommysqueak-GreatBoxee/!svn/ver/180/GreatBoxee.filmomentum/build/lib/zipper.rb
+END
