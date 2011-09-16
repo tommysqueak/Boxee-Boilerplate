@@ -15,12 +15,9 @@ class Packager
     puts "packaging for '#{env}'"
     
     descriptor = App.get_description env
+    descriptor.generate_descriptor_file env_config[1], version, @packaging_dir
     
-    descriptor_for_packaging = descriptor.copy_for_deployment env_config[1], version
-    descriptor_for_packaging.to_xml File.join(@packaging_dir, 'descriptor.xml')
-    
-    @zipper.zip descriptor_for_packaging['id'], version
+    @zipper.zip descriptor['id'], version
     
   end
-  
 end

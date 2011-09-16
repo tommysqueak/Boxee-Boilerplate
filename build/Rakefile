@@ -1,3 +1,3 @@
 import 'lib/tasks/package.rake'
 
-task :default => :package
+task :default => :package_and_clean 

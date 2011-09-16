@@ -17,9 +17,7 @@ class Zipper
   def zip(app_id, version)
 
     FileUtils.mkdir(@packages_dir) unless Dir.exists?(@packages_dir)
-    zip_file_name = file_name(app_id, version)
-    puts "zip file:  #{zip_file_name}"
-    new_zip_file = File.join @packages_dir, zip_file_name
+    new_zip_file = File.join @packages_dir, file_name(app_id, version)
 
     Zip::ZipFile.open(new_zip_file, Zip::ZipFile::CREATE) do |zipfile|
 

@@ -1,0 +1,15 @@
+<app>
+    <id>raketest</id>
+    <name>Rake Text</name>
+    <version>0.0</version>
+    <description>Rake Test</description>
+    <thumb>http://dir.greatboxee.com/apps/rake/thumb.png</thumb>
+    <media>video</media>
+    <copyright>Tom Philip</copyright>
+    <email>tom@tom.com</email>
+    <type>skin</type>
+    <startWindow>14000</startWindow>
+    <platform>all</platform>
+    <minversion>0.9.20</minversion>
+</app>
+

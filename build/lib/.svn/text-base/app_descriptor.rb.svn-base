@@ -1,17 +1,17 @@
+require 'rexml/document'
+include REXML
 require 'xmlsimple'
 require 'FileUtils'
 
 class AppDescriptor < Hash
   
-  def copy_for_deployment(descriptor_additions, version)
+  def generate_descriptor_file(descriptor_additions, version, destination)
     
-    deployment_descriptor = AppDescriptor.new
-    deployment_descriptor.replace self
-    deployment_descriptor.merge! descriptor_additions
-    deployment_descriptor['version'] = version
-    deployment_descriptor.delete 'test-app'
+    merge! descriptor_additions
+    self['version'] = version
+    delete 'test-app'
     
-    return deployment_descriptor
+    to_xml File.join(destination, 'descriptor.xml')
   end
   
   def to_xml(xml_file)

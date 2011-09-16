@@ -1,0 +1,69 @@
+require 'rspec'
+require 'FileUtils'
+require './lib/app_descriptor'
+
+describe AppDescriptor, "reading/writing/generating app decriptor files" do
+  
+  describe "loading xml descriptor file" do
+    
+    before do
+      @descriptor = AppDescriptor.from_xml './spec/assets/descriptor.xml'
+    end
+    
+    it "should load the values" do
+      @descriptor['id'].should == 'GreatBoxee.RakeTest'
+      @descriptor['name'].should == 'Rake Test'
+    end
+
+  end
+  
+  describe "writing descriptor to file" do
+    
+    before do
+      @test_file = './spec/write_read.xml'
+      FileUtils.rm @test_file if File.exists?(@test_file)
+      @descriptor = AppDescriptor.from_xml './spec/assets/descriptor.xml'
+    end
+    
+    it "should write the descriptor to file" do
+      
+      @descriptor.to_xml @test_file
+      @written_descriptor = AppDescriptor.from_xml @test_file
+
+      @written_descriptor['id'].should == 'GreatBoxee.RakeTest'
+      @written_descriptor['name'].should == 'Rake Test'
+    end
+
+  end
+  
+  describe "generating a descriptor file" do
+    
+    before do
+    
+      @descriptor = AppDescriptor.new
+      @descriptor['id'] = 'rake.test'
+      @descriptor['test-app'] = 'true'
+      @descriptor.should_receive(:to_xml).with(any_args())
+      extras = {'id' => "rake.pass", 'name' => 'tommy'}
+    
+      @descriptor.generate_descriptor_file(extras, '2.0', './temp')      
+    end
+
+    it "should not write the test-app tag" do
+      @descriptor['test-app'].should be nil
+    end
+    
+    it "should add any new descriptions" do
+      @descriptor['name'].should eql 'tommy'
+    end
+    
+    it "should overwrite any existing descriptions" do
+      @descriptor['id'].should eql 'rake.pass'
+    end
+    
+    it "should add the version" do
+      @descriptor['version'].should eql '2.0'
+    end
+  end
+  
+end

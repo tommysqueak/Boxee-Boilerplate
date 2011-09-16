@@ -1,4 +1,6 @@
-require './lib/app_descriptor'
+require 'rexml/document'
+include REXML
+require './lib/convention_app_descriptor'
 
 class App
   
@@ -6,11 +8,12 @@ class App
     
     descriptor_file = get_file env
     
-    unless File.exists? descriptor_file
-      descriptor_file = get_file(:default)
+    if File.exists? descriptor_file
+      return AppDescriptor.from_xml descriptor_file
+    else
+      return ConventionAppDescriptor.from_xml get_file(:default)
     end
     
-    return AppDescriptor.from_xml descriptor_file
   end
   
   private 

@@ -20,11 +20,6 @@ task :package => :prepare  do
   
 end
 
-desc "package and clean up after itself"
-task :package_and_clean => :package  do
-  FileUtils.rm_rf @packaging_dir if Dir.exists?(@packaging_dir)
-end
-
 desc "prepare app files for packaging"
 task :prepare do
   

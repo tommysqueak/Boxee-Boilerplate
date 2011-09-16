@@ -1,0 +1,18 @@
+<app>
+    <id>GreatBoxeeBeta.RakeTest</id>
+    <name>Rake Test</name>
+    <version>0.0</version>
+    <description>Rake Test</description>
+    <thumb>http://dir.greatboxee.com/apps/rake/thumb_beta.png</thumb>
+    <repositoryid>GreatBoxeeBeta</repositoryid>
+    <repository>http://beta.greatboxee.com</repository>
+    <media>video</media>
+    <author>Great Boxee</author>
+    <copyright>Tom Philip</copyright>
+    <email>tom@tom.com</email>
+    <type>skin</type>
+    <startWindow>14000</startWindow>
+    <platform>all</platform>
+    <minversion>0.9.20</minversion>
+</app>
+

@@ -1,0 +1,17 @@
+<app>
+    <id>GreatBoxee.RakeTest</id>
+    <name>Rake Test</name>
+    <version>0.0</version>
+    <description>Rake Test Desc</description>
+    <thumb>http://dir.greatboxee.com/apps/rake/thumb_dev.png</thumb>
+    <media>video</media>
+    <author>Great Boxee</author>
+    <copyright>WorldTV</copyright>
+    <email>tom@greatboxee.com</email>
+    <type>skin</type>
+    <startWindow>14000</startWindow>
+    <platform>all</platform>
+    <minversion>0.9.20</minversion>
+    <test-app>true</test-app>
+</app>
+
