@@ -1,10 +1,8 @@
-To get started. Get to the Boxee apps dir in a terminal:
+To get started. Navigate to the Boxee apps directory in a terminal, then run:
 
-mkdir developer-id.your-app-id (developer-id should be your unique prefix, mine is 'greatboxee')
-cd developer-id.your-app-id
-git init
-git remote add boilerplate git://github.com/tommysqueak/Boxee-Boilerplate.git
-git pull boilerplate master
+git clone git://github.com/tommysqueak/Boxee-Boilerplate.git developer-id.your-app-id
+
+developer-id should be your unique prefix, mine is 'greatboxee'
 
 Then open up the descriptor.xml in your editor of choice and fill in the blanks. Open Boxee and check it runs ok. Make a kick-ass app.
 
