@@ -1,5 +1,3 @@
-## To create your app from this template
-
 ## Create the app
 
 Navigate to the [Boxee apps directory](http://developer.boxee.tv/Applications#UserData.2FApps_Locations) in a terminal. Then run:
@@ -24,7 +22,7 @@ From a terminal:
 	bundle install
 	rake
 
-This will create to packaged apps. One for deployment to your staging server/repository and one for the official Boxee app library.
+This will create 2 packaged apps. One for deployment to your staging server/repository and one for the official Boxee app library.
 
 ### Credit
 Grid by Bartsidee - http://www.bartsidee.nl
