@@ -1,0 +1,18 @@
+<!-- example for a skin type app (python and xml UI) that would go into apps/greatboxee.boilerplate dir -->
+
+<app>
+	<id>greatboxee.boilerplate</id>
+	<name>Boxee Boilerplate Demo</name>
+	<version>1.0</version>
+	<description>Just an example to give you a base to work from</description>
+	<thumb>http://dir.greatboxee.com/Thumb.png</thumb>
+	<media>video</media>
+	<type>skin</type>
+	<platform>all</platform>
+	<copyright>blah blah</copyright>
+	<email>eg@example.com</email>
+	<minversion>0.9.11</minversion>
+	<repository>http://dir.boxee.tv/app</repository>
+	<test-app>true</test-app>
+	<startWindow>14000</startWindow>
+</app>

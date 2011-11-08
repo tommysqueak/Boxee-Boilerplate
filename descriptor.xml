@@ -15,7 +15,7 @@
 	<repository>http://dir.boxee.tv/app</repository>
 	<test-app>true</test-app>
 	
-	<!-- Choose one for your type of app -->
+	<!-- Choose one for your type of app (skin, rss or html) -->
 	<startWindow>14000</startWindow> <!-- skin = start window ID or python script name -->
 	<url>[url to rss]</url> <!-- rss = url to rss feed, only if it's an rss type app -->
 	<controller>[jscript file]</controller> <!-- html = jscript file that will 'control' the html5 app -->
