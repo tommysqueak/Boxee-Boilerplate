@@ -6,7 +6,7 @@ Navigate to the [Boxee apps directory](http://developer.boxee.tv/Applications#Us
 
 The developer-id should be your unique prefix for you or your company. Mine is 'greatboxee'.
 
-Then open up the descriptor.xml (located in developer-id.your-app-id) in your editor of choice and fill in the blanks. Open Boxee and check it runs ok. Make a kick-ass app.
+Then open up the descriptor.xml (located in the developer-id.your-app-id directory) in your editor of choice and fill in the blanks. Open Boxee and check it runs ok. Make a kick-ass app.
 
 If you're using Git for source control, rename example.gitignore to .gitignore
 
