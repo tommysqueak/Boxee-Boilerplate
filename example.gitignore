@@ -5,3 +5,5 @@ packaging/
 *.zip
 .DS_Store
 Thumbs.db
+*.pyc
+*.pyo
