@@ -24,5 +24,7 @@ From a terminal:
 
 This will create 2 packaged apps. One for deployment to your staging server/repository and one for the official Boxee app library.
 
+Full details: http://www.greatboxee.com/index.php/2011/10/06/automate-your-app-packaging-the-rake-version/
+
 ### Credit
 Grid by Bartsidee - http://www.bartsidee.nl
