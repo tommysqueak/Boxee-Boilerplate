@@ -11,13 +11,13 @@
 	<platform>all</platform> <!-- all, win, mac, atv (apple tv), linux, dlink.dsm380 (boxee box) --> 
 	<copyright>[copyright notice]</copyright><!-- not shown anywhere but required -->
 	<email>[developer email]</email><!-- developer contact email address, not shown-->
-	<minversion>0.9.11</minversion> <!-- min boxee version your app can run on. 0.9.11 for apps, 0.9.7 for rss  -->
+	<minversion>0.9.11</minversion> <!-- min boxee version your app can run on. 0.9.11 for apps, 0.9.7 for rss, 1.0 for boxee box/html5 apps  -->
 	<repository>http://dir.boxee.tv/app</repository>
 	<test-app>true</test-app>
 	
-	<!-- Choose one for your type of app (skin, rss or html) -->
+	<!-- Choose for your type of app (skin, rss or html) -->
 	<startWindow>14000</startWindow> <!-- skin = start window ID or python script name -->
-	<url>[url to rss]</url> <!-- rss = url to rss feed, only if it's an rss type app -->
+	<url>[url to rss or html5 app]</url> <!-- rss/html = url to rss feed or the html5 app -->
 	<controller>[jscript file]</controller> <!-- html = jscript file that will 'control' the html5 app -->
 			
 	<!-- See http://developer.boxee.tv/Descriptor_XML for optional elements -->
